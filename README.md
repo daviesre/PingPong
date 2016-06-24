@@ -1,3 +1,36 @@
+# Ping-Pong Game
+
+#### A number game, 06.24.2016
+
+#### By  Russ Davies
+
+## Description
+
+This is a game where the user inputs a number and generates a list of all numbers up to the one inputted. All numbers divisible by 3 are replaced by the word "ping", numbers divisible by 5 are replaced by "pong", and finally numbers divisble by 15 take "ping-pong".
+
+## Setup/Installation Requirements
+
+* Clone from repository.
+
+## Known Bugs
+
+No known bugs.
+
+## Support and contact details
+
+Please contact me at russdavies392@gmail.com if you have any questions or notice any bugs.
+
+## Technologies Used
+
+HTML
+
+Jquery
+
+CSS
+
+Bootstrap
+
+Javascript
 
 #Specifications##
 Should generate a list of numbers sequentially starting at 1 and ending at a predetermined number
@@ -24,3 +57,7 @@ Should generate a list of numbers sequentially starting at 1 and ending at a num
 
 * Input Example: 4
 * Output Example: 1, 2, ping, 4
+
+### License
+
+Copyright (c) 2016 **Russ Davies**
