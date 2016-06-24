@@ -1,4 +1,3 @@
-$(document).ready(function){
-
-  
+for (counter = 0; counter < 101; counter++) {
+  console.log(counter);
 }
