@@ -1,3 +1,7 @@
-for (counter = 0; counter < 101; counter++) {
-  console.log(counter);
+for (counter = 1; counter < 21; counter++) {
+  if (counter % 3 === 0) {
+    console.log("ping");
+  } else{
+    console.log(counter);
+  }
 }
