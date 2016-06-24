@@ -23,8 +23,3 @@ Output Example: ping-pong
 Should generate a list of numbers sequentially starting at 1 and ending at a number determined by the user
 Input Example: 4
 Output Example: 1, 2, ping, 4
-
-##Behavior 6##
-Should not accept an input that is not a number
-Input Example: Apple
-Output Example: false

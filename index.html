@@ -12,21 +12,22 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ping-Pong Game Generator</h1>
-      <h2>How to Play:</h2>
-      <ul>
-        <li>Enter a number</li>
-        <li>Watch as the full range of numbers from 1 to the chosen number appear</li>
-        <li>All numbers divisible by 3 will be replaced by "ping"</li>
-        <li>All numbers divisible by 4 will be replaced by "pong"</li>
-        <li>All numbers divisible by 15 will be replaced by "ping-pong"</li>
-      </ul>
+      <div class="jumbotron">
+        <h1>Ping-Pong Game</h1>
+      </div>
+      <h2>Rules:</h2>
+        <p>Enter a number and watch as the full range of numbers from 1 to the chosen number appear</p>
+        <p>All numbers divisible by 3 will be replaced by "ping"</p>
+        <p>All numbers divisible by 4 will be replaced by "pong"</p>
+        <p>All numbers divisible by 15 will be replaced by "ping-pong"</p>
+
     <form id="userSubmit">
       <div class="form-group">
         <label for="NumInput">Enter a number</label>
         <input id="NumInput" type="text">
       </div>
-      <button type="submit" class="btn">Submit!</button>
+      <button type="submit" class="btn btn-success">Submit!</button>
+    </div>
     </form>
 
     <ul id="list"></ul>

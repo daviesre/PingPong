@@ -1,0 +1,14 @@
+body {
+  text-align:center;
+  background-image:url(http://i.stack.imgur.com/RONui.png);
+
+}
+
+#list {
+    list-style-type:none;
+}
+
+.jumbotron {
+ color:white;
+ background-color:green;
+}
