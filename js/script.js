@@ -1,8 +1,9 @@
+
 $(document).ready(function() {
   $("form#userSubmit").submit(function(event) {
-   var num = $("input#wordInput").val();
+   var numInput = $("input#NumInput").val();
    event.preventDefault();
-      for (var counter = 1; counter <= num; counter++) {
+      for (var counter = 1; counter <= numInput; counter++) {
         if (counter % 15 === 0) {
          $("#list").append("<li>"+"ping-pong"+"</li>");
          console.log("pong");
